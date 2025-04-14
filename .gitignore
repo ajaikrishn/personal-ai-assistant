@@ -1,0 +1,6 @@
+agentic_ai/
+__pycache__/
+*.pyc
+.env
+*.log
+
