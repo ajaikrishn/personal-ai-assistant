@@ -1,0 +1,12 @@
+langchain
+duckduckgo-search
+openai
+ollama
+pydantic
+python-dotenv
+typer             # CLI interface
+schedule          # Reminder scheduling
+rich              # Nice terminal output
+google-api-python-client
+google-auth
+google-auth-oauthlib
