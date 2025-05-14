@@ -1,4 +1,8 @@
-from tools.gmail_tool import get_emails, analyze_emails_with_llm
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import tools_file 
+from tools_file.gmail_tool import get_emails, analyze_emails_with_llm
 from configure import EMAIL_USERNAME, EMAIL_PASSWORD, OLLAMA_MODEL
 
 def run_assistant():
@@ -15,5 +19,7 @@ def run_assistant():
     print("\nEmail Analysis:")
     print("=" * 50)
     print(analysis)   
-
-    
+def process_user_input(user_input):
+    # Example: Replace with your actual LLM/tool integration logic
+    response = f"Echo: {user_input}"
+    return response
