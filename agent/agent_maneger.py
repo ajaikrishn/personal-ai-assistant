@@ -20,6 +20,5 @@ def run_assistant():
     print("=" * 50)
     print(analysis)   
 def process_user_input(user_input):
-    # Example: Replace with your actual LLM/tool integration logic
     response = f"Echo: {user_input}"
     return response
