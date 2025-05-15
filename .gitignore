@@ -4,6 +4,6 @@ __pycache__/
 .env
 *.log
 
-.EMAIL_USERNAME 
-.EMAIL_PASSWORD
+EMAIL_USERNAME 
+EMAIL_PASSWORD
 
