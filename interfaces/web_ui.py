@@ -8,6 +8,7 @@ def handle_input(user_input):
     except Exception as e:
         return f"Error: {str(e)}"
 
+<<<<<<< HEAD
 # GUI setup
 root = tk.Tk()
 root.title("Personal AI Assistant")
@@ -18,6 +19,10 @@ entry = tk.Entry(root, width=80)
 entry.pack(padx=10, pady=(0, 10), side=tk.LEFT, fill=tk.X, expand=True)
 
 def submit():
+=======
+def submit():
+
+>>>>>>> eb64c33 (new file)
     user_input = entry.get()
     if user_input.strip() == "":
         return
@@ -32,6 +37,24 @@ def submit():
     entry.delete(0, tk.END)
 
 
+<<<<<<< HEAD
+=======
+
+
+
+# GUI setup
+root = tk.Tk()
+root.title("Personal AI Assistant")
+root.geometry("600x400")
+
+
+entry = tk.Entry(root, width=80)
+entry.pack(padx=10, pady=(0, 10), side=tk.LEFT, fill=tk.X, expand=True)
+
+
+
+
+>>>>>>> eb64c33 (new file)
 chat_window = scrolledtext.ScrolledText(root, state=tk.DISABLED, wrap=tk.WORD)
 chat_window.pack(padx=10, pady=10, fill=tk.BOTH, expand=True)
 
