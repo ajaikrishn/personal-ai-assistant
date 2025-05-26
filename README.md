@@ -23,7 +23,7 @@ Personalized_agentic_ai/
 │   ├── agent_manager.py       # Email and assistant logic (corrected typo from "maneger")
 │
 ├── interfaces/
-│   └── web_ui.py              # Tkinter-based GUI
+│   └── assistant_ui.py              # Tkinter-based GUI
 │
 ├── tools_file/
 │   ├── gmail_tool.py          # Gmail reading and analysis tools
