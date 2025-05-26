@@ -10,7 +10,7 @@ A Python-based personal AI assistant for Ajai Krishna, powered by [Ollama](https
 - **Email Integration:** Reads, summarizes, and analyzes Gmail inbox when asked.
 - **Local LLM:** Uses Ollama for privacy and speed.
 - **Extensible:** Modular codebase for adding more tools and skills.
-- **Simple GUI:** Desktop chat interface using Tkinter.
+- **Simple GUI:** Desktop chat interface using Streamlit.
 
 ---
 
