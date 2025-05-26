@@ -1,6 +1,6 @@
 # Personalized Agentic AI Assistant
 
-A Python-based personal AI assistant for Ajai Krishna, powered by [Ollama](https://ollama.ai/) (local LLM), LangChain, and a simple Tkinter GUI. The assistant can chat conversationally and automatically read, summarize, and analyze emails on request.
+A Python-based personal AI assistant for Ajai Krishna, powered by [Ollama](https://ollama.ai/) (local LLM), LangChain, and a simple Streamlit GUI. The assistant can chat conversationally and automatically read, summarize, and analyze emails on request.
 
 ---
 
